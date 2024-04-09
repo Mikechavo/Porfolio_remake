@@ -3,7 +3,7 @@ import { ComponentProps } from "react"
 import { twMerge } from "tailwind-merge"
 
 
-const buttonStyles = cva([ "transition-colors"], {
+export const buttonStyles = cva([ "transition-colors"], {
  variants: {
   variant: {
    default:["bg-secondary", "hover:bg-secondary-hover"],

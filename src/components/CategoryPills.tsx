@@ -5,8 +5,9 @@ const CategoryPills = () => {
  return(
   <div className="overflow-x-hidden relative">
    <div className="flex whitespace-nowrap gap-3 transition-transform w-[max-content]">
-    <Button className="py-1 px-3 rounded-lg whitespace-nowarp ">All</Button>
-    <Button className="py-1 px-3 rounded-lg whitespace-nowarp ">JS</Button>
+    <Button className="py-1 px-3 rounded-lg whitespace-nowarp ">US Army Veteran</Button>
+    <Button className="py-1 px-3 rounded-lg whitespace-nowarp ">Talent Acquisition Specialist</Button>
+    <Button className="py-1 px-3 rounded-lg whitespace-nowarp ">Full Stack Developer</Button>
    </div>
   </div>
  )

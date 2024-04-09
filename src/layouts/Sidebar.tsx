@@ -4,6 +4,7 @@ import  Button  from "../components/Button"
 import { ElementType, useState } from "react"
 import { twMerge } from "tailwind-merge"
 import { buttonStyles } from "../components/Button"
+import { NavLink } from 'react-router-dom';
 
 
 const Sidebar = () => {
@@ -25,8 +26,12 @@ const Sidebar = () => {
   <>
  <aside className="sticky top-0 overflow-y-auto scrollbar-hidden pb-4 flex flex-col ml-1 ">
   {/* lg:hidden */}
-   <SmallSidebarItem Icon={Home} title="Home" url="/" />
+    <NavLink to={'/'} >
+      <SmallSidebarItem Icon={Home} title="Home" url="/" />
+    </NavLink>
+    <NavLink to={'/skills'} >
    <SmallSidebarItem Icon={Network} title="Skills" url="/skills" />
+   </NavLink>
    <SmallSidebarItem Icon={Route} title="My Journey" url="/Journey" />
    <SmallSidebarItem Icon={Presentation} title="Projects" url="/projects" />
    <SmallSidebarItem Icon={Book} title="Resume" url="/" />

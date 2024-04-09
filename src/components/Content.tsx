@@ -2,12 +2,17 @@ import React from "react"
 import { Routes, Route } from "react-router-dom"
 import HomePage from "./HomePage"
 import Skills from "./Skills"
+import Journey from "./Journey"
+import Projects from "./Projects"
+import Resume from "./Resume"
+import ContactMe from "./ContactMe"
 
-type ContentProps = {
- id: string
- title: string
-}
-const Content = ({id, title}: ContentProps) => {
+// type ContentProps = {
+//  id: string
+//  title: string
+// }
+// ({id, title}: ContentProps)
+const Content = () => {
 
  return(
   <div className="overflow-y-auto flex-grow">
@@ -16,6 +21,10 @@ const Content = ({id, title}: ContentProps) => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/skills" element={<Skills />} />
+            <Route path="/myjourney" element={<Journey />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/contactme" element={<ContactMe />} />
           </Routes>
         </div>
       </main>

@@ -1,4 +1,4 @@
-import ai_image from '../assets/ai_image.png';
+import ai_image from '../assets/ai_image.jpg';
 
 
 const features = [

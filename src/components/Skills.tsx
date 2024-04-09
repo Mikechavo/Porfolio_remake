@@ -24,43 +24,45 @@ import tailwind from '../assets/tailwind.png';
 import TS from '../assets/TS.png';
 import stableDiffusion from '../assets/stableDiffusion.webp';
 
-
 const Skill = () => {
  return (
-
-  <div className="container">
-   <div className="mt-6 grid grid-cols-1  sm:grid-cols-5 lg:grid-cols-5 xl:gap-x-8">
-    <img src={js_logo}></img>
-    <img src={jquery}></img>
-    <img src={TS}></img>
-    <img src={react_logo}></img>
-    <img src={bootstrap}></img>
-    <img src={tailwind}></img>
-    <img src={python_logo}></img>
-    <img src={flask}></img>
-    <img src={django}></img>
-    <img src={pytorch}></img>
-    <img src={ruby_logo}></img>
-    <img src={rails_logo}></img>
-    <img src={java}></img>
-    <img src={c_logo}></img>
-    <img src={Postgresql}></img>
-    <img src={sql_logo}></img>
-    <img src={html_logo}></img>
-    <img src={css_logo}></img>
-    <img src={haml}></img>
-    <img src={jest_logo}></img>
-    <img src={rspec_logo}></img>
-    <img src={gas_logo}></img>
-    <img src={github}></img>
-    <img src={stableDiffusion}></img>
+   <div className="container mx-auto mt-6">
+     <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4">
+       {skills.map((skill, index) => (
+         <div key={index} className="flex items-center justify-center">
+           <img src={skill.logo} alt={skill.name} className="w-16 sm:w-20" />
+         </div>
+       ))}
+     </div>
    </div>
-  </div>
+ );
+};
 
-
-
-
- )
-}
+const skills = [
+ { name: "JavaScript", logo: js_logo },
+ { name: "jQuery", logo: jquery },
+ { name: "TypeScript", logo: TS },
+ { name: "React", logo: react_logo },
+ { name: "Bootstrap", logo: bootstrap },
+ { name: "Tailwind CSS", logo: tailwind },
+ { name: "Python", logo: python_logo },
+ { name: "Flask", logo: flask },
+ { name: "Django", logo: django },
+ { name: "PyTorch", logo: pytorch },
+ { name: "Ruby", logo: ruby_logo },
+ { name: "Ruby on Rails", logo: rails_logo },
+ { name: "Java", logo: java },
+ { name: "C", logo: c_logo },
+ { name: "PostgreSQL", logo: Postgresql },
+ { name: "SQL", logo: sql_logo },
+ { name: "HTML", logo: html_logo },
+ { name: "CSS", logo: css_logo },
+ { name: "Haml", logo: haml },
+ { name: "Jest", logo: jest_logo },
+ { name: "RSpec", logo: rspec_logo },
+ { name: "Google Apps Script", logo: gas_logo },
+ { name: "GitHub", logo: github },
+ { name: "Stable Diffusion", logo: stableDiffusion }
+];
 
 export default Skill;

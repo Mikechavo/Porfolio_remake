@@ -103,7 +103,7 @@ export default function PageHeader() {
                           <a
                             href="#"
                             className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700 flex items-center')}
-                            onClick={() => window.open("mailto:youremail@example.com")}
+                            onClick={() => window.open("mailto:mchavez76@yahoo.com")}
                           >
                             <Mail className="mr-2" />
                             <span>Email</span>

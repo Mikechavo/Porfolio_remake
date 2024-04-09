@@ -12,9 +12,9 @@ const App = () => {
       <div className="flex flex-grow">
         <Sidebar />
         <div className="flex flex-col flex-grow overflow-y-auto">
-          <div className="sticky top-0 bg-white z-10 pb-4">
+          {/* <div className="sticky top-0 bg-white z-10 pb-4">
             <CategoryPills />
-          </div>
+          </div> */}
           <div className="grid gap-4 grid-cols-[repeat(auto-fill, minmax(300px, 1fr))] p-4">
             <Content />
           </div>

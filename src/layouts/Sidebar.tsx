@@ -17,7 +17,7 @@ const Sidebar = () => {
         title={title} // Add title attribute for hover text
         className={twMerge(
           buttonStyles({ variant: "ghost" }),
-          "py-4 px-1 flex flex-col items-center rounded-lg gap-1 "
+          "py-4 px-1 grid justify-items-start rounded-lg gap-1 "
         )}
       >
         <Icon className="w-6 h-6" />

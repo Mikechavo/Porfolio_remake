@@ -1,6 +1,5 @@
-import { useState } from 'react'
+
 import PageHeader from './layouts/PageHeader'
-import CategoryPills from './components/CategoryPills'
 import Content from './components/Content'
 import Sidebar from './layouts/Sidebar'
 import './App.css'

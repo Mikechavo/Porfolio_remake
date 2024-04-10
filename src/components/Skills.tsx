@@ -1,4 +1,4 @@
-import React from 'react';
+
 import github from '../assets/github.png';
 import js_logo from '../assets/js_logo.png';
 import react_logo from '../assets/react_logo.png';

@@ -1,5 +1,4 @@
-import React from 'react'
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+
 import army_image from '../assets/army_image.jpg'
 import arrow from '../assets/arrow.png'
 

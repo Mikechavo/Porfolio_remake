@@ -18,7 +18,7 @@ const ContactMe: React.FC = () => {
 
   return (
     
-    <div className='container mx-auto mt-6'>
+    <div className='container'>
       <div className="mt-6 grid grid-cols-1 sm:grid-cols-5 lg:grid-cols-5 xl:gap-x-8">
         {contactLinks.map((link, index) => (
           <a key={index} href={link.href} title={link.title} className="flex flex-col items-center">

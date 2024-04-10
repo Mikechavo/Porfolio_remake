@@ -55,22 +55,22 @@ export default function PageHeader() {
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
-                    {updatedNavigation.map((item) => (
-                      <NavLink // Change anchor tag to NavLink
-                        key={item.name}
-                        to={item.to} // Change href to to
-                        className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
-                        )}
-                        aria-current={item.current ? 'page' : undefined}
-                      >
-                        {item.name}
-                      </NavLink>
-                    ))}
-                  </div>
-                </div>
+  <div className="flex space-x-4">
+    {updatedNavigation.map((item) => (
+      <NavLink
+        key={item.name}
+        to={item.to} // Change from item.href to item.to
+        className={classNames(
+          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+          'rounded-md px-3 py-2 text-sm font-medium'
+        )}
+        aria-current={item.current ? 'page' : undefined}
+      >
+        {item.name}
+      </NavLink>
+    ))}
+  </div>
+</div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 

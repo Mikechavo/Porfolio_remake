@@ -15,8 +15,8 @@ const navigation = [
   { name: 'Contact Me', href: '/contactme', current: false },
 ]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+export function classNames(...classes: string[]) {
+  return classes.filter(Boolean).join(' ');
 }
 
 export default function PageHeader() {

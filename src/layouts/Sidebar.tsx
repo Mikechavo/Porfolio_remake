@@ -1,7 +1,7 @@
 import {  Mail, Github, Linkedin, } from "lucide-react"
 
 
-import { ElementType, useState } from "react"
+import { ElementType } from "react"
 import { twMerge } from "tailwind-merge"
 import { buttonStyles } from "../components/Button"
 

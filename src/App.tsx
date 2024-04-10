@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="flex flex-col h-screen">
       <PageHeader />
-      <div className="flex flex-grow">
+      <div className="flex"> {/*flex flex-grow*/}
         <Sidebar />
         <div className="flex flex-col flex-grow overflow-y-auto">
           {/* <div className="sticky top-0 bg-white z-10 pb-4">
@@ -20,6 +20,7 @@ const App = () => {
         </div>
       </div>
     </div>
+    
   )
 }
 

@@ -1,19 +1,19 @@
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import SWE from '../assets/SWE.png'
+import { Fragment } from 'react';
+import { Disclosure, Menu, Transition } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import SWE from '../assets/SWE.png';
 import ai_image from '../assets/ai_image.png';
-import { Mail, Github, Linkedin } from "lucide-react"
-import { useLocation } from 'react-router-dom';
+import { Mail, Github, Linkedin } from "lucide-react";
+import { NavLink, useLocation } from 'react-router-dom'; // Import NavLink
 
 const navigation = [
-  { name: 'Home', href: '/', current: false },
-  { name: 'Skills', href: '/skills', current: false },
-  { name: 'My Journey', href: '/myjourney', current: false },
-  { name: 'Projects', href: '/projects', current: false },
-  { name: 'Resume', href: '/resume', current: false },
-  { name: 'Contact Me', href: '/contactme', current: false },
-]
+  { name: 'Home', to: '/', current: false }, // Change href to to
+  { name: 'Skills', to: '/skills', current: false }, // Change href to to
+  { name: 'My Journey', to: '/myjourney', current: false }, // Change href to to
+  { name: 'Projects', to: '/projects', current: false }, // Change href to to
+  { name: 'Resume', to: '/resume', current: false }, // Change href to to
+  { name: 'Contact Me', to: '/contactme', current: false }, // Change href to to
+];
 
 export function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
@@ -25,7 +25,7 @@ export default function PageHeader() {
   // Update current property based on current location
   const updatedNavigation = navigation.map(item => ({
     ...item,
-    current: item.href === location.pathname
+    current: item.to === location.pathname // Change href to to
   }));
 
   return (
@@ -57,9 +57,9 @@ export default function PageHeader() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {updatedNavigation.map((item) => (
-                      <a
+                      <NavLink // Change anchor tag to NavLink
                         key={item.name}
-                        href={item.href}
+                        to={item.to} // Change href to to
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'rounded-md px-3 py-2 text-sm font-medium'
@@ -67,7 +67,7 @@ export default function PageHeader() {
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
-                      </a>
+                      </NavLink>
                     ))}
                   </div>
                 </div>

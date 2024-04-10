@@ -1,13 +1,13 @@
 import PalH from '../assets/palHome.png'
 import Button from './Button'
-const features = [
- { name: 'Origin', description: 'Designed by Good Goods, Inc.' },
- { name: 'Material', description: 'Solid walnut base with rare earth magnets and powder coated steel card cover' },
- { name: 'Dimensions', description: '6.25" x 3.55" x 1.15"' },
- { name: 'Finish', description: 'Hand sanded and finished with natural oil' },
- { name: 'Includes', description: 'Wood card tray and 3 refill packs' },
- { name: 'Considerations', description: 'Made from natural materials. Grain and color vary with each item.' },
-]
+// const features = [
+//  { name: 'Origin', description: 'Designed by Good Goods, Inc.' },
+//  { name: 'Material', description: 'Solid walnut base with rare earth magnets and powder coated steel card cover' },
+//  { name: 'Dimensions', description: '6.25" x 3.55" x 1.15"' },
+//  { name: 'Finish', description: 'Hand sanded and finished with natural oil' },
+//  { name: 'Includes', description: 'Wood card tray and 3 refill packs' },
+//  { name: 'Considerations', description: 'Made from natural materials. Grain and color vary with each item.' },
+// ]
 
 export default function Projects() {
  return (
@@ -51,7 +51,7 @@ export default function Projects() {
    </div>
 
 
-   
+
    <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
     <div>
      <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Mini-Paldex</h2>

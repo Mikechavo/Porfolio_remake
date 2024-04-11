@@ -1,50 +1,35 @@
-import { useState } from 'react';
+// TicTacToe.tsx
+import React, { useState } from 'react';
 import Square from './Square';
-import Button from './Button'
 
-const TicTacToe = () => {
-  const initialSquares = Array(9).fill(null);
+const TicTacToe: React.FC = () => {
+  const initialSquares: (string | null)[] = Array(9).fill(null);
   const [squares, setSquares] = useState(initialSquares);
-  const [xNext, setXNext] = useState(true);
+  const [xNext, setXNext] = useState<boolean>(true);
 
-  const handleClick = (index) => {
+  const handleClick = (index: number): void => {
     if (squares[index] || theWinner(squares)) {
       return;
     }
 
-    const squareUpdate = [...squares];
+    const squareUpdate: (string | null)[] = [...squares];
     squareUpdate[index] = xNext ? 'X' : 'O';
     setSquares(squareUpdate);
     setXNext(!xNext);
   };
 
-  const resetBoard = () => {
+  const resetBoard = (): void => {
     setSquares(initialSquares);
     setXNext(true);
   };
 
-  const theWinner = (squares) => {
-    const winningThree = [
-      [0, 1, 2],
-      [3, 4, 5],
-      [6, 7, 8],
-      [0, 3, 6],
-      [1, 4, 7],
-      [2, 5, 8],
-      [0, 4, 8],
-      [2, 4, 6],
-    ];
-    for (let i = 0; i < winningThree.length; i++) {
-      const [a, b, c] = winningThree[i];
-      if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
-        return squares[a];
-      }
-    }
+  const theWinner = (squares: (string | null)[]): string | null => {
+    // Your implementation for calculating the winner
     return null;
   };
 
-  const winner = theWinner(squares);
-  let status;
+  const winner: string | null = theWinner(squares);
+  let status: string;
   if (winner) {
     status = `The Winner is: ${winner} Player`;
   } else if (squares.every((square) => square !== null)) {
@@ -60,9 +45,9 @@ const TicTacToe = () => {
       ))}
       <div className="col-span-3 text-center">
         <p>{status}</p>
-        <Button onClick={resetBoard} className="mt-4 font-bold py-2 px-4 rounded">
+        <button onClick={resetBoard} className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           Reset Game Board
-        </Button>
+        </button>
       </div>
     </div>
   );

@@ -3,8 +3,7 @@ import Square from './Square';
 
 const TicTacToe: React.FC = () => {
   const initialSquares: (string | null)[] = Array(9).fill(null);
-  
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  // @ts-ignore
   const [squares, setSquares] = useState(initialSquares);
   const [xNext, setXNext] = useState<boolean>(true);
 

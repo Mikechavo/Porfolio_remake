@@ -3,7 +3,7 @@ import ai_image from '../assets/ai_image.jpg';
 
 const features = [
  { name: 'US Army Veteran', description: 'Served 7 years. Held the role of Squad Leader' },
- { name: 'Talent Acquisition Specialist ', description: 'Sourcing Recruiter at Uber before layoffs' },
+ { name: 'Talent Acquisition Specialist ', description: 'Former Sourcing Recruiter at Uber ' },
  { name: 'Full Stack Developer', description: "I'm a Software Developer" },
  { name: 'Father', description: 'Two Beautiful Girls' },
  

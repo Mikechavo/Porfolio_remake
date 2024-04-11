@@ -5,6 +5,7 @@ import PcPart from '../assets/pcPart.png'
 import PcTab from '../assets/tabs.png'
 import FitFolio from '../assets/fitFolio.png'
 import Flare from '../assets/flare.png'
+import old from '../assets/old.png'
 // import TicTacToe from '../components/TicTacToe';
 import TicTac from '../assets/TicTac.png'
 import stable from '../assets/stable.png'
@@ -148,6 +149,47 @@ export default function Projects() {
 
           </div>
         </div>
+
+
+        {/* old portfolio */}
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+          <div>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Old Portfolio</h2>
+            <p className="mt-4 text-gray-500">
+              Previously, I built my portfolio using React.js and Bootstrap. It served as a showcase of my projects and skills, featuring a clean and responsive design thanks to Bootstrap's grid system and components.
+              While it served me well, I've recently upgraded to a new version using TypeScript and Tailwind CSS to enhance performance, flexibility, and maintainability.
+              Feel free to take a look at my old portfolio to see how far I've come on my coding journey!
+            </p>
+
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://github.com/Mikechavo/Mikechavo">
+                  Source Code
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://mikechavo.github.io/Mikechavo/">
+                  Live Site
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+
+            </dl>
+          </div>
+          <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+            <img
+              src={old}
+              alt=""
+              className="rounded-lg bg-gray-100"
+            />
+
+          </div>
+        </div>
+
 
 
         {/* PC Part Inventory Management System */}
@@ -513,15 +555,15 @@ export default function Projects() {
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Gradio-Based Browser Interface for Stable Diffusion</h2>
             <p className="mt-4 text-gray-500">
-            This project involves a browser interface built with the Gradio library that provides a user-friendly front-end to interact with Stable Diffusion, a cutting-edge machine learning technique. While I didn't create the original repository, I have been learning from experienced developers. Through collaboration on this project, I've gained valuable experience in machine learning and deep learning techniques, particularly in the context of generative models. This project has equipped me with skills and knowledge that I continue to apply in my work. Please note that this is a collaborative effort, and the original repository can be found
+              This project involves a browser interface built with the Gradio library that provides a user-friendly front-end to interact with Stable Diffusion, a cutting-edge machine learning technique. While I didn't create the original repository, I have been learning from experienced developers. Through collaboration on this project, I've gained valuable experience in machine learning and deep learning techniques, particularly in the context of generative models. This project has equipped me with skills and knowledge that I continue to apply in my work. Please note that this is a collaborative effort, and the original repository can be found
             </p>
             <div >
-                <Button><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">
-                  Here
-                </a>
-                </Button>
-                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
-              </div>
+              <Button><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">
+                Here
+              </a>
+              </Button>
+              {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+            </div>
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
 
               <div className="border-t border-gray-200 pt-4">

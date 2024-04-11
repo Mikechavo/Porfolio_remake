@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Button from './Button'
 
 const PigLatin: React.FC = () => {
   const [userInput, setUserInput] = useState<string>("");
@@ -62,14 +63,14 @@ const PigLatin: React.FC = () => {
           <h4>Enter phrase to be translated:</h4>
           <input
             type="text"
-            className="user-input"
+            className="user-input border border-gray-300 rounded-md px-4 py-2 mb-2"
             onChange={handleInput}
             value={userInput}
           />
           <br />
           <br />
-          <button onClick={setUpPreventDefault}>Submit</button>
-          <button onClick={restartGame}>Clear</button>
+          <Button onClick={setUpPreventDefault} className=" mr-4 ">Submit</Button>
+          <Button onClick={restartGame}>Clear</Button>
         </div>
         <h3 className="piggyOutput">{translatedWords}</h3> {/* Display translated words */}
       </div>

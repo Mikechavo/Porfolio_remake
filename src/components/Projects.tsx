@@ -7,6 +7,7 @@ import FitFolio from '../assets/fitFolio.png'
 import Flare from '../assets/flare.png'
 // import TicTacToe from '../components/TicTacToe';
 import TicTac from '../assets/TicTac.png'
+import stable from '../assets/stable.png'
 import Button from './Button'
 import PigLatin from '../components/PigLatin';
 import PasswordGen from './PasswordGen'
@@ -327,12 +328,12 @@ export default function Projects() {
 
 
 
-       {/* Pig Latin Translator */}
-       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+        {/* Pig Latin Translator */}
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Pig Latin Translator</h2>
             <p className="mt-4 text-gray-500">
-            This is a handy Pig Latin translator that takes user input and converts it into Pig Latin. Whether you want to have some fun with language or simply explore the quirky world of Pig Latin, this tool provides a quick and easy way to translate your text into this playful and entertaining language.
+              This is a handy Pig Latin translator that takes user input and converts it into Pig Latin. Whether you want to have some fun with language or simply explore the quirky world of Pig Latin, this tool provides a quick and easy way to translate your text into this playful and entertaining language.
             </p>
 
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
@@ -348,12 +349,12 @@ export default function Projects() {
 
 
 
-            {/* Password Generator */}
-       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+        {/* Password Generator */}
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Password Generator</h2>
             <p className="mt-4 text-gray-500">
-            This password generator is designed to enhance your password security while retaining the familiarity of your existing passwords. It creates random passwords by shuffling the letters while keeping the same number of capital letters, numbers, and special characters. This way, you can enjoy stronger password protection without the hassle of memorizing completely new passwords.
+              This password generator is designed to enhance your password security while retaining the familiarity of your existing passwords. It creates random passwords by shuffling the letters while keeping the same number of capital letters, numbers, and special characters. This way, you can enjoy stronger password protection without the hassle of memorizing completely new passwords.
             </p>
 
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
@@ -366,6 +367,185 @@ export default function Projects() {
 
           </div>
         </div>
+
+
+
+        {/* Ruby Text Based Game */}
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+          <div>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Ruby Text Based Game</h2>
+            <p className="mt-4 text-gray-500">
+              This text-based game is a Ruby-based adventure that unfolds through your terminal. Immerse yourself in an interactive narrative where your choices shape the story's outcome. Will you be the hero or make choices that lead to unforeseen consequences? Test your decision-making skills and enjoy a captivating gaming experience in a purely text-based format.
+            </p>
+
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://github.com/learn-academy-2023-echo/text-based-game-mpr">
+                  Source Code
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+
+            </dl>
+          </div>
+
+        </div>
+
+
+
+        {/* Blog Post Application */}
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+          <div>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Blog Post Application</h2>
+            <p className="mt-4 text-gray-500">
+              This Ruby on Rails Full Stack application empowers users to create and delete blog posts effortlessly. Whether you're a blogger, writer, or content enthusiast, you can easily manage your content with a straightforward interface. Share your thoughts, ideas, or stories with the world and maintain complete control over your posts through simple deletion options.
+            </p>
+
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://github.com/learn-academy-2023-echo/full-stack-rails-fullstack-mc-pj">
+                  Source Code
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+
+            </dl>
+          </div>
+
+        </div>
+
+
+
+        {/* Fictional Dating Application */}
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+          <div>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Fictional Dating Application</h2>
+            <p className="mt-4 text-gray-500">
+              Step into the imaginative world of our Fullstack dating application, where you can connect with fictional characters for a playful and enjoyable dating experience. This app, powered by React, Ruby on Rails, and PostgreSQL, lets you explore a unique dating adventure with fictional profiles. Swipe, match, chat, and embark on fun interactions with fictional characters to make your dating journey a delightful experience.
+            </p>
+
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://github.com/learn-academy-2023-echo/cat-tinder-frontend-fiction-dateme-mike-graham">
+                  Frontend Source Code
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://github.com/learn-academy-2023-echo/cat-tinder-backend-fiction-dateme-mike-graham">
+                  Backend Source Code
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+
+            </dl>
+          </div>
+
+        </div>
+
+
+        {/* Cribz */}
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+          <div>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Cribz</h2>
+            <p className="mt-4 text-gray-500">
+              This Fullstack app using React, Ruby on Rails, and PostgreSQL. It showcases full CRUD functionality. Allowing users to explore, login, sign out, create, modify, and remove imaginary home listings.
+            </p>
+
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://github.com/learn-academy-2023-echo/apartment-app-frontend-cribz">
+                  Frontend Source Code
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://github.com/learn-academy-2023-echo/apartment-app-backend-cribz">
+                  Backend Source Code
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+
+            </dl>
+          </div>
+
+        </div>
+
+
+        {/* To Do List */}
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+          <div>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">To Do List</h2>
+            <p className="mt-4 text-gray-500">
+              A simple and straightforward to-do list application built with Python. Create and manage your tasks effortlessly.
+            </p>
+
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://github.com/Mikechavo/To_do_list_python">
+                  Source Code
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+
+            </dl>
+          </div>
+
+        </div>
+
+
+        {/* Gradio-Based Browser Interface for Stable Diffusion */}
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+          <div>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Gradio-Based Browser Interface for Stable Diffusion</h2>
+            <p className="mt-4 text-gray-500">
+            This project involves a browser interface built with the Gradio library that provides a user-friendly front-end to interact with Stable Diffusion, a cutting-edge machine learning technique. While I didn't create the original repository, I have been learning from experienced developers. Through collaboration on this project, I've gained valuable experience in machine learning and deep learning techniques, particularly in the context of generative models. This project has equipped me with skills and knowledge that I continue to apply in my work. Please note that this is a collaborative effort, and the original repository can be found
+            </p>
+            <div >
+                <Button><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">
+                  Here
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://github.com/Mikechavo/stable-diffusion-webui">
+                  Forked Repo
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+
+            </dl>
+          </div>
+          <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+            <img
+              src={stable}
+              alt=""
+              className="rounded-lg bg-gray-100"
+            />
+          </div>
+
+        </div>
+
+
+
 
 
 

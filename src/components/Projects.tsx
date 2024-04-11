@@ -5,7 +5,8 @@ import PcPart from '../assets/pcPart.png'
 import PcTab from '../assets/tabs.png'
 import FitFolio from '../assets/fitFolio.png'
 import Flare from '../assets/flare.png'
-import TicTacToe from '../components/TicTacToe';
+// import TicTacToe from '../components/TicTacToe';
+import TicTac from '../assets/TicTac.png'
 import Button from './Button'
 
 
@@ -300,7 +301,7 @@ export default function Projects() {
             </p>
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
               <div className="border-t border-gray-200 pt-4">
-                <Button><a href="https://github.com/Mikechavo/my_fav_anime_react">
+                <Button><a href="https://github.com/learn-academy-2023-echo/tic-tac-toe-naughts-and-crosses">
                   Source Code
                 </a>
                 </Button>
@@ -308,8 +309,16 @@ export default function Projects() {
               </div>
             </dl>
           </div>
-          <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+          {/* <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
             <TicTacToe />
+          </div> ITS NOT WORKING RN*/}
+
+          <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+            <img
+              src={TicTac}
+              alt=""
+              className="rounded-lg bg-gray-100"
+            />
           </div>
         </div>
 

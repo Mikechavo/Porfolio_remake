@@ -8,6 +8,7 @@ import Flare from '../assets/flare.png'
 // import TicTacToe from '../components/TicTacToe';
 import TicTac from '../assets/TicTac.png'
 import Button from './Button'
+import PigLatin from '../components/PigLatin';
 
 
 // const features = [
@@ -322,6 +323,39 @@ export default function Projects() {
           </div>
         </div>
 
+
+
+
+       {/* Pig Latin Translator */}
+       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+          <div>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Pig Latin Translator</h2>
+            <p className="mt-4 text-gray-500">
+            This is a handy Pig Latin translator that takes user input and converts it into Pig Latin. Whether you want to have some fun with language or simply explore the quirky world of Pig Latin, this tool provides a quick and easy way to translate your text into this playful and entertaining language.
+            </p>
+
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://github.com/Mikechavo/my_fav_anime_react">
+                  Source Code
+                </a>
+                </Button>
+              </div>
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://my-favorite-anime.netlify.app/">
+                  Live Site
+                </a>
+                </Button>
+              </div>
+
+            </dl>
+          </div>
+          <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+            <PigLatin />
+
+          </div>
+        </div>
 
 
 

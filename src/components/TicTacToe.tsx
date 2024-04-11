@@ -1,9 +1,10 @@
-// TicTacToe.tsx
 import React, { useState } from 'react';
 import Square from './Square';
 
 const TicTacToe: React.FC = () => {
   const initialSquares: (string | null)[] = Array(9).fill(null);
+  
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [squares, setSquares] = useState(initialSquares);
   const [xNext, setXNext] = useState<boolean>(true);
 

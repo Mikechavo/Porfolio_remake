@@ -2,6 +2,7 @@ import PalH from '../assets/palHome.png'
 import PintPal from '../assets/PintPal.png'
 import JJK from '../assets/JJK.png'
 import PcPart from '../assets/pcPart.png'
+import pokedex from '../assets/pokedex.png'
 import PcTab from '../assets/tabs.png'
 import FitFolio from '../assets/fitFolio.png'
 import Flare from '../assets/flare.png'
@@ -261,6 +262,36 @@ export default function Projects() {
               alt=""
               className="rounded-lg bg-gray-100"
             />
+          </div>
+        </div>
+
+        {/* pokedex */}
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+          <div>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Mike's Pokedex Explorer</h2>
+            <p className="mt-4 text-gray-500">
+            Mike's Pokedex Explorer Web App is a Frontend application I've been working on, aimed at providing users with a fun and interactive way to explore the world of Pokémon. Through this web application, users can discover Pokémon based on their energy type, allowing for a deeper dive into the vast Pokémon universe. Additionally, the app features a search functionality, enabling users to easily find Pokémon by name. While still in development, the project showcases my skills in front-end development, API integration, and problem-solving as I work to enhance the user experience and bring the vision to life. Stay tuned for updates as I continue to refine and expand the features of this project! </p>
+
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://github.com/Mikechavo/pokedex_mc">
+                  Source Code
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+             
+
+            </dl>
+          </div>
+          <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+            <img
+              src={pokedex}
+              alt=""
+              className="rounded-lg bg-gray-100"
+            />
+
           </div>
         </div>
 

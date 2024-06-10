@@ -11,7 +11,7 @@ type ContactLink = {
 
 const ContactMe: React.FC = () => {
   const contactLinks: ContactLink[] = [
-    { src: emailLogo, alt: "Email", title: "Send me an email", href: "mailto:mchavez76@yahoo.com" },
+    { src: emailLogo, alt: "Email", title: "Send me an email", href: "mailto:mchavez.talent@gmail.com" },
     { src: github, alt: "GitHub", title: "Checkout me out on GitHub", href: "https://github.com/Mikechavo" },
     { src: linkedin, alt: "LinkedIn", title: "Connect with me via LinkedIn", href: "https://www.linkedin.com/in/michael-t-chavez/" }
   ];

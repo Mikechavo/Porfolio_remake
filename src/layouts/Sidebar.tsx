@@ -13,7 +13,7 @@ const Sidebar = () => {
   const SmallSidebarItem = ({ Icon, title, url }: SmallSidebarItemProps) => {
     return (
       <a
-        href={url ?? `mailto:mchavez76@yahoo.com`}
+        href={url ?? `mailto:mchavez.talent@gmail.com`}
         title={title} // Add title attribute for hover text
         className={twMerge(
           buttonStyles({ variant: "ghost" }),

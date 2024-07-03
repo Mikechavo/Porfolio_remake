@@ -95,6 +95,14 @@ export default function Journey() {
        <p className="mt-6 text-xl leading-8 text-gray-700">
         Overall, my internship at Ceatus Media Group provided me with invaluable hands-on experience, enhancing my technical skills and preparing me for future opportunities in full stack development.
        </p>
+       <div className="flex justify-center items-center mt-8 mb-8">
+        <a><img src={arrow} alt="arrow" className="w-[5rem] max-w-none sm:w-[5rem]" /></a>
+       </div>
+       <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Western Governors University</h1>
+       <p className="mt-6 text-xl leading-8 text-gray-700">
+        Currently enrolled and pursuing a Bachelor's of Science, Software Engineering.
+       </p>
+       
       </div>
      </div>
     </div>

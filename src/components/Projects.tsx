@@ -5,6 +5,7 @@ import PcPart from '../assets/pcPart.png'
 import pokedex from '../assets/pokedex.png'
 import PcTab from '../assets/tabs.png'
 import FitFolio from '../assets/fitFolio.png'
+import Num from '../assets/num_game.png'
 import Frontend from '../assets/frontend.png'
 import Flare from '../assets/flare.png'
 import old from '../assets/old.png'
@@ -145,6 +146,44 @@ export default function Projects() {
           <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
             <img
               src={JJK}
+              alt=""
+              className="rounded-lg bg-gray-100"
+            />
+
+          </div>
+        </div>
+
+
+        {/* numberblocks */}
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+          <div>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Number Blocks Game</h2>
+            <p className="mt-4 text-gray-500">
+            Number Blocks Game is a web-based application designed to help my daughter, Satori, learn basic arithmetic through play. Built using Vue.js, HTML, and CSS, this project integrates interactive buttons for numbers and operators (+, -) to create simple mathematical equations. When Satori presses the '=' button, the game calculates the result and provides visual feedback tailored to her learning needs. This project reflects my dedication to blending educational tools with creativity, aiming to make learning math an enjoyable experience for children.
+            </p>
+
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://github.com/Mikechavo/number_blocks_game">
+                  Source Code
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+              <div className="border-t border-gray-200 pt-4">
+                <Button><a href="https://satorinumberlearning.netlify.app/">
+                  Live Site
+                </a>
+                </Button>
+                {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
+              </div>
+
+            </dl>
+          </div>
+          <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+            <img
+              src={Num}
               alt=""
               className="rounded-lg bg-gray-100"
             />

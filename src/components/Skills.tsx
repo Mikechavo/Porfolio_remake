@@ -22,6 +22,7 @@ import java from '../assets/java.png';
 import pytorch from '../assets/pytorch.png';
 import tailwind from '../assets/tailwind.png';
 import TS from '../assets/TS.png';
+import vue from '../assets/vue.webp';
 import stableDiffusion from '../assets/stableDiffusion.webp';
 
 const Skill = () => {
@@ -43,6 +44,7 @@ const skills = [
  { name: "jQuery", logo: jquery },
  { name: "TypeScript", logo: TS },
  { name: "React", logo: react_logo },
+ { name: "Vue", logo: vue },
  { name: "Bootstrap", logo: bootstrap },
  { name: "Tailwind CSS", logo: tailwind },
  { name: "Python", logo: python_logo },

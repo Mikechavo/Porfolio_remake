@@ -1,9 +1,10 @@
 import ai_image from '../assets/ai_image.jpg';
+import eng from '../assets/eng.png';
 
 
 const features = [
  { name: 'US Army Veteran', description: 'Served 7 years. Held the role of Squad Leader' },
- { name: 'Talent Acquisition Specialist ', description: 'Former Sourcing Recruiter at Uber | Veteran Placement Specialist Recruiter at Military Technical Recruiting, LLC' },
+ { name: 'Technical Sourcer', description: 'Sourcing Software Engineers at Uber ' },
  { name: 'Full Stack Developer', description: "I'm a Software Developer" },
  { name: 'Father', description: 'Two Beautiful Girls' },
  
@@ -47,7 +48,7 @@ export default function HomePage() {
            className="rounded-lg bg-gray-100"
          />
          <img
-           src="https://www.mtr.vet/320x133MTRLogo.png"
+           src={eng}
            alt="Walnut card tray filled with cards and card angled in dedicated groove."
            className="rounded-lg bg-gray-100"
          />

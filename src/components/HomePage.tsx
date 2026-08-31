@@ -4,7 +4,7 @@ import eng from '../assets/eng.png';
 
 const features = [
  { name: 'US Army Veteran', description: 'Served 7 years. Held the role of Squad Leader' },
- { name: 'Technical Sourcer', description: 'Sourcing Software Engineers at Uber ' },
+ { name: 'Talent Intelligence ', description: 'Sourcing, Recruiting, Interviewing, Market Research, Talent Mapping for Software Engineers' },
  { name: 'Full Stack Developer', description: "I'm a Software Developer" },
  { name: 'Father', description: 'Two Beautiful Girls' },
  
@@ -38,7 +38,7 @@ export default function HomePage() {
            className="rounded-lg bg-gray-100"
          />
          <img
-           src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Logo_of_the_United_States_Army.svg/1533px-Logo_of_the_United_States_Army.svg.png"
+           src="https://media.defense.gov/2020/Mar/10/2002265419/-1/-1/0/200310-A-UM169-001.PNG"
            alt="Top down view of walnut card tray with embedded magnets and card groove."
            className="rounded-lg bg-gray-100"
          />

@@ -1,6 +1,7 @@
 import PalH from '../assets/palHome.png'
 import PintPal from '../assets/PintPal.png'
 import JJK from '../assets/JJK.png'
+import Games from '../assets/games.jpg'
 import PcPart from '../assets/pcPart.png'
 import pokedex from '../assets/pokedex.png'
 import PcTab from '../assets/tabs.png'
@@ -153,13 +154,14 @@ export default function Projects() {
           </div>
         </div>
 
+        {/* myfavoritegames */} <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8"> <div> <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"> My Favorite Games </h2> <p className="mt-4 text-gray-500"> My Favorite Games is a React-based frontend application that showcases a curated collection of my favorite video games. The application uses Google Sheets and Google Apps Script as a lightweight backend, allowing me to add new games through a private admin form without needing to redeploy the website. Built with React, JavaScript, Bootstrap, and Google Apps Script, this project combines my interest in gaming with my experience building dynamic web applications and working with APIs. </p> <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8"> <div className="border-t border-gray-200 pt-4"> <Button> <a href="https://github.com/Mikechavo/my_favorite_games_react" target="_blank" rel="noopener noreferrer" > Source Code </a> </Button> </div> <div className="border-t border-gray-200 pt-4"> <Button> <a href="https://mikesfavgames.netlify.app/" target="_blank" rel="noopener noreferrer" > Live Site </a> </Button> </div> </dl> </div> <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8"> <img src={Games} alt="My Favorite Games" className="rounded-lg bg-gray-100" /> </div> </div>
 
         {/* numberblocks */}
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Number Blocks Game</h2>
             <p className="mt-4 text-gray-500">
-            Number Blocks Game is a web-based application designed to help my daughter, Satori, learn basic arithmetic through play. Built using Vue.js, HTML, and CSS, this project integrates interactive buttons for numbers and operators (+, -) to create simple mathematical equations. When Satori presses the '=' button, the game calculates the result and provides visual feedback tailored to her learning needs. This project reflects my dedication to blending educational tools with creativity, aiming to make learning math an enjoyable experience for children.
+              Number Blocks Game is a web-based application designed to help my daughter, Satori, learn basic arithmetic through play. Built using Vue.js, HTML, and CSS, this project integrates interactive buttons for numbers and operators (+, -) to create simple mathematical equations. When Satori presses the '=' button, the game calculates the result and provides visual feedback tailored to her learning needs. This project reflects my dedication to blending educational tools with creativity, aiming to make learning math an enjoyable experience for children.
             </p>
 
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
@@ -191,12 +193,12 @@ export default function Projects() {
           </div>
         </div>
 
-          {/* pokedex */}
-          <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+        {/* pokedex */}
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Mike's Pokedex Explorer</h2>
             <p className="mt-4 text-gray-500">
-            Mike's Pokedex Explorer Web App is a Frontend application I've been working on, aimed at providing users with a fun and interactive way to explore the world of Pokémon. Through this web application, users can discover Pokémon based on their energy type, allowing for a deeper dive into the vast Pokémon universe. Additionally, the app features a search functionality, enabling users to easily find Pokémon by name. While still in development, the project showcases my skills in front-end development, API integration, and problem-solving as I work to enhance the user experience and bring the vision to life. Stay tuned for updates as I continue to refine and expand the features of this project! </p>
+              Mike's Pokedex Explorer Web App is a Frontend application I've been working on, aimed at providing users with a fun and interactive way to explore the world of Pokémon. Through this web application, users can discover Pokémon based on their energy type, allowing for a deeper dive into the vast Pokémon universe. Additionally, the app features a search functionality, enabling users to easily find Pokémon by name. While still in development, the project showcases my skills in front-end development, API integration, and problem-solving as I work to enhance the user experience and bring the vision to life. Stay tuned for updates as I continue to refine and expand the features of this project! </p>
 
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
 
@@ -214,7 +216,7 @@ export default function Projects() {
                 </Button>
                 {/* <dd className="mt-2 text-sm text-gray-500"> Python, Django framework(maybe put an image here)</dd> */}
               </div>
-             
+
 
             </dl>
           </div>
@@ -269,8 +271,8 @@ export default function Projects() {
         </div>
 
 
-          {/* FRONT-END WEB DEVELOPMENT */}
-          <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+        {/* FRONT-END WEB DEVELOPMENT */}
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">FRONT-END WEB DEVELOPMENT PROJECT</h2>
             <p className="mt-4 text-gray-500">
@@ -380,7 +382,7 @@ export default function Projects() {
           </div>
         </div>
 
-      
+
 
         {/* Project Flare: */}
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
